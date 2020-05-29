@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            padding: 2% 0 2% 20%;
+        }
+        .drop-down, .output{
+            padding-left: 20%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form">
+        <section id="input">
+            <form>
+        
+            ID : <input type="number" readonly id="userID" value="">
+        
+            Name : <input type="text" id="userName" >
+        
+            Occupation : <input type="text" id="userOccupation">
+        
+            <input type="button" id="button" value="Add">
+        
+            </form>
+            </section>
+    </div>
+    
+
+    <div class="drop-down">
+        Sort by: <select name="sort" id ="sortBy">
+            <option value ="userID">userID</option>
+            <option value ="name">userName</option>
+            <option value ="occupation">userOccupation</option>
+            </select>
+    </div>
+    
+    <div class="output">
+ 
+        <section id="output">
+        </section>
+
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
